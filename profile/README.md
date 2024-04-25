@@ -50,7 +50,7 @@ Vous trouverez un *changelog* complet, par version ici : [changelog](https://doc
 
 # Développeurs
 
-[La ligne directrice pour contribuer à ce projet / Contribution guidelines for this project](profile/CONTRIBUTING.md)
+[La ligne directrice pour contribuer à ce projet / Contribution guidelines for this project](.github/CONTRIBUTING.md)
 
 [Contribuer au développement de Jeedom](https://doc.jeedom.com/fr_FR/contribute/)
 
