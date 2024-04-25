@@ -27,16 +27,16 @@ votre fork du dépôt. Et faire un lien dans l’issue).
 utilisant le type ***"feat"*** et en incluant une description claire de la nouvelle
 fonctionnalité, par exemple : ```feat: ajouter une nouvelle méthode duplicate
 a la class eqLogic```.
-5. Si votre fonctionnalité inclut des changements dans la documentation, ajoutez
+   - Si votre fonctionnalité inclut des changements dans la documentation, ajoutez
 un commit supplémentaire avec le type ***"docs"*** et une description appropriée,
 par exemple : ```docs: mettre à jour la documentation pour inclure la nouvelle
 méthode```.
-6. Si votre fonctionnalité inclut des changements qui affectent les utilisateurs et
+   - Si votre fonctionnalité inclut des changements qui affectent les utilisateurs et
 méritent d'être mentionnés dans le changelog, ajoutez un commit
 supplémentaire avec le type ***"chore"*** et une description appropriée, par
 exemple : ```chore: mettre à jour le changelog pour la version x.x.x```.
-7. Soumettez une pull request vers la branche ***beta***.
-8. Attendez la validation.
+5. Soumettez une pull request vers la branche ***beta***.
+6. Attendez la validation.
    
 ## Refactor, Docs, Test, Chore
 
@@ -85,16 +85,16 @@ your fork of the repository. And make a link in the issue).
 type "feat" and including a clear description of the new functionality, for example
 functionality, for example: "feat: add a new duplicate method
 to the eqLogic class.
-5. If your functionality includes changes to the documentation, add
+   - If your functionality includes changes to the documentation, add
 an additional commit with the type "docs" and an appropriate description,
 for example: "docs: update the documentation to include the new
 method".
-6. If your functionality includes changes that affect users and deserve to be
+   - If your functionality includes changes that affect users and deserve to be
 deserve to be mentioned in the changelog, add an additional commit
 with the type "chore" and an appropriate description, for example
 example: "chore: update changelog for version x.x.x".
-7. Submit a pull request to the beta branch.
-8. Wait for validation.
+5. Submit a pull request to the beta branch.
+6. Wait for validation.
 
 ## Refactor, Docs, Test, Chore
 
