@@ -32,7 +32,7 @@ Fixes #
 ## PR checklist
 <!-- Go over all the following points, and put an `x` in all the boxes that apply. -->
 - [ ] I have checked there is no other PR open for the same change.
-- [ ] I have read the [[La ligne directrice pour contribuer à ce projet / Contribution guidelines for this project](profile/CONTRIBUTING.md)).
+- [ ] I have read the [[La ligne directrice pour contribuer à ce projet / Contribution guidelines for this project](.github/CONTRIBUTING.md)).
 - [ ] I grant the project the right to include and distribute the code under the GNU.
 - [ ] I have added tests to cover my changes.
 - [ ] I have verified that the code complies with the projects coding standards.
