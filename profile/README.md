@@ -1,6 +1,6 @@
 ## Hi there 👋
 
-[Contribution guidelines for this project](CONTRIBUTING.md)
+[Contribution guidelines for this project](profile/CONTRIBUTING.md)
 <!--
 
 **Here are some ideas to get you started:**
