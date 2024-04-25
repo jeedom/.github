@@ -1,7 +1,8 @@
 # Github contribution :
 
 Merci beaucoup pour votre volonté de contribuer à ce projet ! 
-Veuillez suivre ces directives pour garantir une collaboration harmonieuse avec l’ensemble de la communauté.
+> [!IMPORTANT]
+> Veuillez suivre ces directives pour garantir une collaboration harmonieuse avec l’ensemble de la communauté.
 
 ## Corrections de bogues et fautes de frappe
 
@@ -45,13 +46,14 @@ mêmes étapes que pour les fonctionnalités, en remplaçant le type de commit p
 celui approprié et en fournissant une description adaptée à la nature du
 changement, comme décrit ci-dessous :
 
-* ***refactor***: refactorisation du code, par exemple : ```refactor: migrer des
+> [!TIP]
+> * ***refactor***: refactorisation du code, par exemple : ```refactor: migrer des
 composants de classe vers les hooks```.
-* ***docs***: modifications dans la documentation, par exemple : ```docs: ajouter un
+> * ***docs***: modifications dans la documentation, par exemple : ```docs: ajouter un
 exemple d'utilisation pour le module```.
-* ***test***: ajouter ou mettre à jour des tests, par exemple : ```test: ajouter des
+> * ***test***: ajouter ou mettre à jour des tests, par exemple : ```test: ajouter des
 tests d'intégration utilisant detox```.
-* ***chore***: changements dans le changelog, par exemple : ```chore: changement
+> * ***chore***: changements dans le changelog, par exemple : ```chore: changement
 du changelog```.
 
 -----
