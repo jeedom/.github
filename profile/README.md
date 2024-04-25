@@ -1,5 +1,6 @@
 ## Hi there 👋
 
+[Contribution guidelines for this project](CONTRIBUTING.md)
 <!--
 
 **Here are some ideas to get you started:**
