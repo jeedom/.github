@@ -32,7 +32,11 @@ jobs:
         # This is a simple curl to fetch the list of repos containing a file and extracting the repo names
         run: |
           REPOS=$(curl -H "Accept: application/vnd.github.v3+json" "https://api.github.com/orgs/${{ github.repository_owner }}/repos?per_page=100&page=${{ github.event.inputs.page }}" | jq -r '.[] | select(.name | test("plugin")) | .name' | jq -cs '.')
-          echo "matrix=$REPOS" >> $GITHUB_OUTPUT
+          if echo "$REPOS" | grep -q "plugin"; then
+            echo "matrix=$REPOS" >> $GITHUB_OUTPUT
+          else
+            echo "Le mot 'plugin' n'est pas présent dans la liste des répertoires."
+          fi
 
   dispatch:
     runs-on: ubuntu-latest
