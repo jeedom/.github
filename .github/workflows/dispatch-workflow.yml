@@ -6,7 +6,7 @@ on:
       name:
         description: "The workflow to update (with .yml)"
         required: true
-        default: "node.yml"
+        default: "work.yml"
       page:
         description: "Page of the repository list to check (currently 1-3)"
         required: true
