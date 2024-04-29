@@ -75,8 +75,8 @@ jobs:
           body: Automated update of the ${{ github.event.inputs.name }} workflow from https://github.com/${{ github.repository }}
           branch: feat/workflow-auto-update-${{ github.event.inputs.name }}
           commit-message: Updating ${{ github.event.inputs.name }} workflow from template
-          committer: Nextcloud bot <bot@nextcloud.com>
-          author: Nextcloud bot <bot@nextcloud.com>
+          committer: Jeedom bot <bot@jeedom.com>
+          author: Jeedom bot <bot@jeedom.com>
           path: target
           signoff: true
           title: Updating ${{ github.event.inputs.name }} workflow from template
