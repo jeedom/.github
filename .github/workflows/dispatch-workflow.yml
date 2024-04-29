@@ -31,7 +31,7 @@ jobs:
         id: search-repos
         # This is a simple curl to fetch the list of repos containing a file and extracting the repo names
         run: |
-          REPOS=$(curl -H "Accept: application/vnd.github.v3+json" "https://api.github.com/orgs/${{ github.repository_owner }}/repos?per_page=100&page=${{ github.event.inputs.page }}" | jq -c 'map(.name)')
+          REPOS=$(curl -H "Accept: application/vnd.github.v3+json" "https://api.github.com/orgs/${{ github.repository_owner }}/repos?per_page=100&page=${{ github.event.inputs.page }}" | jq -c 'map(select(.name | test("plugin")))')
           echo "matrix=$REPOS" >> $GITHUB_OUTPUT
 
   dispatch:
