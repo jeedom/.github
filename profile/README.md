@@ -9,7 +9,6 @@
 # Jeedom - La domotique innovante | *Innovative Home Automation*
 <p align="center">
 <a href="https://www.jeedom.com/">Site</a>  -
-
 <a href="https://blog.jeedom.com/">Blog</a>  -
 <a href="https://community.jeedom.com/">Community</a>  -
 <a href="https://market.jeedom.com/">Market</a>  -
