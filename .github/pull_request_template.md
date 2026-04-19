@@ -1,7 +1,7 @@
 <!-- Provide a general summary of your changes in the title above. -->
 
 <!--
-Please target the `beta` branch when submitting your pull request, unless your change **only** applies to Jeedom 4.x.
+Please target the `beta` branch when submitting your pull request on plugins and `develop` branch on core.
 -->
 
 ## Description
